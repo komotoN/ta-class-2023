@@ -1,9 +1,36 @@
 body {
-    background-color: #dddddd;
+    background-color: #eeeedd;
 }
 
 .container {
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     width: 70%;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+}
+
+img {
+    padding: 10px;
+    width: 60%;
+}
+
+.box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.box p {
+    margin: 0; 
+    padding: 0;
 }
